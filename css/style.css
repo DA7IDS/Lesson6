@@ -91,7 +91,6 @@
     }
     
     .container {
-        width: 100%;
         margin: 0px auto;
     }
     
@@ -107,9 +106,22 @@
         margin-bottom: 55px;
     }
     
+    .left-block {
+        float: left;
+    }
+    
+    .right-block {
+        float: right;
+    }
+    
+    .size {
+        margin-right: 52px;
+    }
+    
     .block-img {
         width: 636px;
         height: 423px;
+        border-radius: 3px;
     }
     
     .block-paragraph1 {
@@ -129,21 +141,9 @@
         font-weight: 400;
     }
     
-    .left-block {
-        float: left;
-    }
-    
-    .right-block {
-        float: right;
-    }
-    
-    .size {
-        margin-right: 52px;
-    }
-    
     .read-more {
         float: left;
-        margin-top: 13px;
+        margin-top: 18px;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
         color: #FF7A00;
@@ -157,4 +157,83 @@
         display: inline-block;
         margin-left: 18px;
         vertical-align: middle;
+    }
+    
+    .load-more {
+        width: 190px;
+        height: 70px;
+        background-color: #FF7A00;
+        margin: 0px auto;
+        border-radius: 3px;
+        padding: 28px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 135px;
+    }
+    
+    .load-txt {
+        color: #FFFFFF;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+    
+    .divider {
+        height: 266px;
+        width: 100%;
+        background-color: #181C28;
+        margin-bottom: 80px;
+    }
+    /* footer */
+    
+    footer {
+        height: 365px;
+    }
+    
+    .footer-navigation {
+        margin: 0px auto;
+        width: 90%;
+    }
+    
+    .footer-navigation li {
+        margin-bottom: 20px;
+    }
+    
+    .footer-navigation::after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+    
+    .left-nav {
+        float: left;
+        margin-right: 198px;
+    }
+    
+    .footer-paragraph {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        color: #282828;
+        margin-bottom: 15px;
+    }
+    
+    .footer-nav {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #7B7B7B;
+    }
+    
+    .right-nav {
+        float: right;
+    }
+    
+    .footer-images {
+        margin-left: 20px;
+    }
+    
+    .footer-img {
+        margin-right: 10px;
+        width: 54px;
     }
