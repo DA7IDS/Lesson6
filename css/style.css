@@ -92,6 +92,7 @@
     
     .container {
         margin: 0px auto;
+        width: 90%;
     }
     
     .container::after {
@@ -112,10 +113,6 @@
     
     .right-block {
         float: right;
-    }
-    
-    .size {
-        margin-right: 52px;
     }
     
     .block-img {
