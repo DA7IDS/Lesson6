@@ -134,9 +134,27 @@
     }
     
     .right-block {
-        float: left;
+        float: right;
     }
     
     .size {
         margin-right: 52px;
+    }
+    
+    .read-more {
+        float: left;
+        margin-top: 13px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        color: #FF7A00;
+    }
+    
+    .read-more::after {
+        content: '';
+        width: 47px;
+        height: 4px;
+        background-color: #FF7A00;
+        display: inline-block;
+        margin-left: 18px;
+        vertical-align: middle;
     }
