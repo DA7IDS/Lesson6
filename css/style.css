@@ -1,0 +1,142 @@
+    /* header navigation */
+    
+    .header-wraper {
+        top: 0%;
+        height: 120px;
+        width: 100%;
+        position: fixed;
+        z-index: 2;
+        background-color: white;
+    }
+    
+    .header-logo {
+        position: absolute;
+        left: 140px;
+        top: 40%;
+        transform: translate(-0%, -40%);
+    }
+    
+    .logo-txt1 {
+        font-family: 'Playfair Display', serif;
+        color: #FF7A00;
+        font-size: 55px;
+        font-weight: 900;
+    }
+    
+    .logo-txt2 {
+        font-family: 'Poppins', sans-serif;
+        color: #FF7A00;
+        font-size: 24px;
+    }
+    
+    .navigation {
+        position: absolute;
+        left: 400px;
+        top: 50%;
+        transform: translate(-0%, -50%);
+    }
+    
+    .nav-li {
+        display: inline-block;
+        margin-right: 45px;
+    }
+    
+    .nav-li a {
+        font-family: 'Poppins', sans-serif;
+        color: #181C28;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    /* section #1 */
+    
+    .image-wraper {
+        margin-top: 120px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .wraper-img {
+        width: 100%;
+    }
+    
+    .image-txt1 {
+        position: absolute;
+        top: 105px;
+        left: 50%;
+        transform: translate(-50%, -0%);
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    
+    .image-txt2 {
+        position: absolute;
+        top: 132px;
+        left: 50%;
+        transform: translate(-50%, -0%);
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 48px;
+        font-weight: 400;
+    }
+    /* section #2 */
+    
+    .container-paragraph {
+        margin: 85px 0px 80px 172px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        color: #FF7A00;
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0px auto;
+    }
+    
+    .container::after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+    
+    .box {
+        width: 640px;
+        height: 670px;
+        margin-bottom: 55px;
+    }
+    
+    .block-img {
+        width: 636px;
+        height: 423px;
+    }
+    
+    .block-paragraph1 {
+        width: 560px;
+        font-size: 36px;
+        margin-top: 20px;
+        margin-bottom: 22px;
+        float: left;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+    
+    .block-paragraph2 {
+        width: 636px;
+        float: left;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+    }
+    
+    .left-block {
+        float: left;
+    }
+    
+    .right-block {
+        float: left;
+    }
+    
+    .size {
+        margin-right: 52px;
+    }
